@@ -114,7 +114,7 @@ read_email:
 
 parse_email:
 
-	addi 	$sp, $sp, -8			#save registers by conventions
+	addi 	$sp, $sp, -8			#save registers by convention
         sw 	$ra, 0($sp)
 	sw 	$s0, 4($sp)
 
@@ -148,7 +148,7 @@ parse_email:
 	move 	$v0, $t8  			#$v0 = $t8 = pos sub
 	move 	$v1, $t9  			#$v1 = $t9 = pos head
 
-	lw 	$ra, 0($sp)			#restore registers by conventions
+	lw 	$ra, 0($sp)			#restore registers by convention
 	lw 	$s0, 4($sp)
 	addi 	$sp, $sp, 8
 	
