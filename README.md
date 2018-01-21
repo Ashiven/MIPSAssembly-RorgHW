@@ -1,2 +1,2 @@
-# MIPSAssembly-RorgHW
+#RorgHW
 Computer Organization: homework repository 
